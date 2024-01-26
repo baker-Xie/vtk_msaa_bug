@@ -7,6 +7,9 @@ This may be a bug in vtk, you can produce the problem in the following steps:
 
 You can see, the MultiSample aliasing seems not work on cube2 which has opacity < 1.
 
+![image](https://github.com/baker-Xie/vtk_msaa_bug/assets/30395561/17643fff-5653-463c-9c4f-859b2a970aef)
+
+
 Meanwhile, if you have several polydata (for example 3), and Set color attribute to each
 polydata, then append them into one polydata, then MSAA won't work on this large polydata.
 
